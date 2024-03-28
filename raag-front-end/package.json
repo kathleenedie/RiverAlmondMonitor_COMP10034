@@ -1,0 +1,38 @@
+{
+  "name": "raag-front-end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.2.10",
+    "@react-stately/data": "^3.11.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "axios": "^1.6.7",
+    "chart.js": "^4.4.2",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "chassis-css": "^4.0.8",
+    "cors": "^2.8.5",
+    "date-fns": "^3.4.0",
+    "framer-motion": "^11.0.14",
+    "mapbox-gl": "^3.1.2",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-map-gl": "^7.1.7",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.70.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}

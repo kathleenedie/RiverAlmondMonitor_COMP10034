@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/Dashboard/page": "app/Dashboard/page.js",
+  "/Almond/page": "app/Almond/page.js",
+  "/Report/page": "app/Report/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

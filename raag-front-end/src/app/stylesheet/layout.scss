@@ -1,0 +1,83 @@
+// Rhythm
+$v: 6px;
+$h: 7px;
+
+// Breakpoints
+$xs: 480px;
+$sl: 576px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+
+// Radius
+$border-radius-base: 4px;
+$border-radius-sm: 3px;
+$border-radius-lg: 6px;
+
+// Grid system
+$grid-columns: 12;
+
+// Containers
+$container-sl: (540px + ($h * 2));
+$container-sm: (720px + ($h * 2));
+$container-md: (940px + ($h * 2));
+$container-lg: (1140px + ($h * 2));
+
+// Typography
+$font-size-base: 16px;
+$font-size-xs: ceil($font-size-base * 0.75); // 12px
+$font-size-sm: ceil($font-size-base * 0.875); // 14px
+$font-size-lg: ceil($font-size-base * 1.125); // 18px
+$font-size-xl: ceil($font-size-base * 1.375); // 22px
+$font-size-brand: ceil($font-size-base * 1.5); // 24px
+
+$font-weight-book: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// Legacy variables
+
+// BREAKPOINTS
+$screen-md: $md;
+$screen-md-min: $md;
+
+$screen-xs-max: ($sl - 1);
+$screen-sl-max: ($sm - 1);
+$screen-sm-max: ($md - 1);
+$screen-md-max: ($lg - 1);
+
+$screen-xs: 480px !default;
+$screen-sm: 768px !default;
+$screen-md: 992px !default;
+$screen-lg: 1200px !default;
+
+// GRID
+$gutter-xs: ($h / 2); // 3.5
+$gutter-sm: $h; // 7
+$gutter-base: ($h * 2); // 14
+$gutter-lg: ($h * 3); // 21
+$gutter-xl: ($h * 4); // 28
+
+// RHYTHM
+$line-height-base: 24px !default;
+$line-height-xxs: 6px !default;
+$line-height-xs: 12px !default;
+$line-height-sm: 18px !default;
+$line-height-lg: 30px !default;
+$line-height-xl: 36px !default;
+
+$rhythm-xxs: $v; // 6
+$rhythm-xs: ($v * 2); // 12
+$rhythm-sm: ($v * 3); // 18
+$rhythm-base: ($v * 4); // 24
+$rhythm-lg: ($v * 5); // 30
+$rhythm-xl: ($v * 6); // 36
